@@ -142,7 +142,7 @@ while game_running:
 
 # Game loop has ended, prompt for high score and save
 #name = input("Enter your name: ")
-score_entry = "Jose" + "," + str(score) + "\n"
+score_entry = "Player1" + "," + str(score) + "\n"
 with open("high_scores.txt", "a") as file:
     file.write(score_entry)
 
